@@ -21,6 +21,13 @@ git config --list
 # выбиаю файлы для отслеживания
 git add <FILENAME1 FILENAME2>
 
+# создаём ключ для удалённого доступа
+ ssh-keygen
+C:\Users\Dragonthorn/.ssh/
+
+git будет искать ключ с именем стандартным в директрии пользователя в папке .ssh
+
+добавить ключ.pub в гитхаб аватарка ---> settings ---> ssh keys
 
     git remote add origin git@github.com:grape-code/OX_Game.git
 git branch -M main
