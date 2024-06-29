@@ -1,0 +1,27 @@
+1) создаем виртуальное окружение
+$ python -m venv .venv
+
+    активация окружения
+    [win] <project>\.venv\Script\activate.bat
+
+
+    приглашение к вводу в командной строке будет начинаться с (.venv) .....>
+
+
+
+2)создание инициализация git(контроль версий)
+# создание нового репозитория
+git init
+
+# конфигурация(настройка)
+git config user.name <NAME>
+git config user.email <EMAIL>
+git config --list
+
+# выбиаю файлы для отслеживания
+git add <FILENAME1 FILENAME2>
+
+
+    git remote add origin git@github.com:grape-code/OX_Game.git
+git branch -M main
+git push -u origin main
